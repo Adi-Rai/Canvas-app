@@ -2,7 +2,7 @@ window.addEventListener("load",()=>{
     const canvas= document.getElementById("canvas");
 
     const ctx = canvas.getContext('2d');
-    canvas.width = window.innerHeight;
+    canvas.width= window.innerWidth;
     canvas.height = window.innerHeight;
 
     let painting = false;
@@ -28,6 +28,6 @@ window.addEventListener("load",()=>{
 });
 
 window.addEventListener("resize",()=>{
-    canvas.width = window.innerHeight;
+    canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 });
